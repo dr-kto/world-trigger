@@ -1,0 +1,19 @@
+C.
+1 - f
+2 - c
+3 - d
+4 - e
+5 - a
+6 - b
+
+D.
+d
+
+E.
+1) remove component and complexity
+2) environments and users
+3) put thing together
+4) temperature, moisture, pressure
+5) pairs of shoes
+6) the future of robotics
+
