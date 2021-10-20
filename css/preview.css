@@ -1,6 +1,6 @@
 /* Preview */
 .preview {
-    animation: preview 7s ease;
+    animation: preview 2s ease;
     background-color: #fff;
     width: 0;
     height: 0;
@@ -21,16 +21,16 @@
     animation: loader 2s ease;
 }
 .preview__video {
-    animation: loader-m 2s ease 2s;
+    /* animation: loader-m 2s ease 2s; */
 }
 .preview__loading>img{
     width: 30rem;
-    height: 20rem;
+    height: 15rem;
 }
-.preview__video>img {
+/* .preview__video>img {
     width: 30rem;
     height: 10rem;
-}
+} */
 
 @keyframes preview {
     0% {
@@ -71,19 +71,19 @@
         opacity: 0;
         visibility: visible;
         width: 30rem;
-        height: 11rem;
+        height: 20rem;
     }
-    40% {
+    60% {
         opacity: 1;
         visibility: visible;
         width: 30rem;
-        height: 10rem;
+        height: 20rem;
     }
     70% {
         opacity: 1;
         visibility: visible;
         width: 30rem;
-        height: 10rem;
+        height: 20rem;
     }
     100% {
         opacity: 0;

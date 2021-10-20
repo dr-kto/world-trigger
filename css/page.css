@@ -1,0 +1,172 @@
+ /* initial pos */
+ #p0 {
+    left: 0;
+  }
+  
+  
+  /* out of vision */
+  #p1, #p2{
+    left: 200%;
+  }
+  
+  .page {
+    position: absolute;/**/
+    width: 100%;/**/
+    height: 100%;/**/
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    transition: all .5s ease;
+  }
+  
+  .page__content {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    transition: all .5s ease;
+  }
+  .border {
+    /* padding-top: 45vh; */
+    /* font-size: 10rem; */
+  }
+  #elements .icon {
+      display: none;
+  }
+  
+  
+  
+  
+  
+  
+  .page__content {
+      /* position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      margin: auto;
+      text-align: center;
+      font-size: 80px;
+      line-height: 1.3;
+      transition: all .5s ease; */
+    
+  }
+  .page__item {
+    /* flex-shrink: 0;
+    width: 100vw;
+    height: 50vh;
+    line-height: 300px;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 5px; */
+  }
+  .page__item {
+    /* background-color: transparent;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;   */
+  }
+  
+  .page__item>img {
+    /* object-fit: cover;
+    width: 100%;
+    height: 100%; */
+  }
+  
+  
+   
+    
+  
+    /* Menu icons */
+    #elements .icon {
+      /* margin: 1rem 0;
+      transition: all .5s ease; */
+    }
+    
+   
+    .page#p1 .icon {
+      /* height: 220px;
+      transform: translateX(10%); */
+    }
+    
+  
+    /* Page icons */
+    .page .icon {
+      /* position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 270px;
+      height: 170px;
+      margin: auto;
+      text-align: center;
+      font-size: 80px;
+      line-height: 1.3;
+      transform: translateX(360%);
+      transition: all .5s ease; */
+    }
+    
+   
+  
+  
+  
+  
+  
+  
+  /* horizontal scroll */
+    /* display: flex;
+    align-items: center;
+    allow for scrolling
+    overflow-x: auto;
+  
+    make it smooth on iOS
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory; */
+  
+  
+  
+  
+  
+     
+  
+  /* ------ */
+    .title, .hint {
+      display: block;
+    }
+    
+    .title {
+      font-size: 38px;
+    }
+    
+    .hint {
+      font-size: 13px;
+    }
+    
+    #p4 .hint {
+      display: inherit !important;
+    }
+    
+    .hint a {
+      color: yellow;
+      transition: all 250ms ease-out;
+    }
+    
+    .hint a:hover {
+      color: #FFF;
+    }
+    
+    /* through line a */
+    .line-trough {
+      text-decoration: line-through;
+    }
+    

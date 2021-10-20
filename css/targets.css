@@ -1,0 +1,73 @@
+    #story:target .icon,
+
+    #poster:target .icon
+
+    {
+        /* position: absolute; */
+    }
+
+    
+
+
+
+
+/* p1 */
+    #story:target #p0,
+
+    #poster:target #p0
+  
+    {
+        background: black;
+        opacity: 0.6;
+    }
+
+    /* other pages */
+    #story:target #p1,
+
+    #poster:target #p2
+
+    {
+        transform: translateX(-200%);
+        transition-delay: .4s;
+    }
+
+
+    /* nav */
+        /* disabled */
+    #story:target ul .icon,
+
+    #poster:target ul .icon
+  
+    {
+        transform: scale(.9);
+        transition-delay: .25s;
+    }
+
+        /* active */
+    #story:target #first,
+
+    #poster:target #second
+
+    {
+        transform: scale(1.2);
+    }
+
+  
+    /* p1 icons */
+    #story:target #p0 .page__content,
+
+    #poster:target #p0 .page__content 
+    
+    {
+        -webkit-filter: blur(3px);
+    }
+
+    /* other pages icons */
+    #story:target #p1 .icon,
+
+    #poster:target #p2 .icon
+
+    {
+        transform: translateX(0);
+        transition-delay: 1s;
+    }
