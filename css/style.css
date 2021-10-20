@@ -23,9 +23,11 @@ a {
     margin: 0 auto;
 }
 
-
-/* Header */
-
+.preview {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
 
 
 /* Main */

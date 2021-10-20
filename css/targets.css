@@ -1,9 +1,12 @@
-    #story:target .icon,
+    #story:target .preview,
 
-    #poster:target .icon
+    #poster:target .preview
 
     {
-        /* position: absolute; */
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        
     }
 
     
