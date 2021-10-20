@@ -21,17 +21,10 @@
 .preview__loading {
     animation: loader 2s ease;
 }
-.preview__video {
-    /* animation: loader-m 2s ease 2s; */
-}
 .preview__loading>img{
     width: 30rem;
     height: 15rem;
 }
-/* .preview__video>img {
-    width: 30rem;
-    height: 10rem;
-} */
 
 @keyframes preview {
     0% {

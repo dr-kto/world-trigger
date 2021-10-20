@@ -10,35 +10,20 @@
     <link rel="stylesheet" href="css/preview.css">
     <link rel="stylesheet" href="css/poster.css">
     <link rel="stylesheet" href="css/instagram.css">
+    <link rel="stylesheet" href="css/squads.css">
     <title>World Trigger</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <div class="header__burger"></div>
-    </header>
     <!-- MAIN -->
     <main>
         <section>
             <div id="trigger-on">
-            <div id="story">
             <div id="poster">
-    
-                <ul id="elements">
-    
-                    <a href="#story">
-                        <li class="icon" id="first">
-                            <img src="src/elements/anemo.png" alt="story">
-                        </li>
-                    </a>
-    
-                    <a href="#poster">
-                        <li class="icon" id="second">
-                            <img src="src/elements/cryo.png" alt="poster">
-                        </li>
-                    </a>
+            <div id="squads">
+            <div id="staff">
 
-                </ul>
+            
+
     
                 <!-- trigger on -->
                 <div class="page" id="p0" style="background: black;">
@@ -50,19 +35,11 @@
                         </a>
                     </div>
                 </div>
-                <!-- story page -->
-                <div class="page" id="p1" style="background: grey;">
-                    <div class="page__content">
-                        <video poster="src/logo-neighbor.png" controls preload="none">
-                            <source src="src/story/border.webm">
-                            <source src="src/story/border.mp4">
-                        </video>
-                    </div>
-                </div>
-               
+                
                <!-- poster -->
-                <div class="page" id="p2" style="background: cornflowerblue;">
+                <div class="page" id="p1" style="background: cornflowerblue;">
                     
+                        <!-- poster -->
                         <div class="poster">
                             <figure>
                                 <img src="src/poster/bg.jpg" alt="" id="landscape">
@@ -71,7 +48,7 @@
                             <div class="chika"><img src="src/poster/chika.png" alt="."></div>
                             <div class="osamu"><img src="src/poster/osamu.png" alt="."></div>
                             <div class="yuma"><img src="src/poster/yuma.png" alt="."></div>
-                            <div class="logo"><img src="src/poster/logo.png" alt="."></div>
+                            <a href="#menu"><div class="logo"><img src="src/poster/logo.png" alt="."></div></a>
                             </figure>
                             <div class="instagram">
                                 <h1>
@@ -125,13 +102,197 @@
                                 </div>
                             </div>
                         </div>
-                        
+
+                        <!-- menu -->
+                        <div id="menu" class="menu">
+                            <a href="#poster" class="menu__close-area">
+                                <div class="menu_area">
+                                    <a href="#poster" class="menu__close">&times;</a>
+                                    <div class="menu__content">
+                                        <a href="#poster">Poster</a>
+                                        <a href="#story">Story</a>
+                                        <a href="#squads">Squads</a>
+                                        <a href="#staff">Staff</a>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- story-popup -->
+                        <div id="story" class="story">
+                            <a href="#menu" class="story__close-area">
+                                    <div class="story__area">
+                                        <a href="#menu" class="story__close">&times;</a>
+                                        <div class="story__content">
+                                            <video poster="src/logo-neighbor.png" controls preload="none">
+                                                <source src="src/story/border.webm">
+                                                <source src="src/story/border.mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
                 </div>
                 
+                <!-- squads -->
+                <div class="page" id="p2" style="background: url('src/background/stars.jpg')">
+                    <!-- characters -->
+                    <a href="#menu" class="close">&times;</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="squad">
+                        <h2>FORCE ELITE</h2> 
+                        <div class="icon">
+                            <a href=""><img src="src/squads/s-rank/jin.jpg"></a>
+                        </div>
+                
+                        <h2>Rank A</h2>
+                
+                        <h3>Tachikawa squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\a-rank\tachikawa\tachikawa.jpg">
+                            <img src="src/squads/a-rank/tachikawa/izumi.jpg">
+                            <img src="src\squads\a-rank\tachikawa\takeru.jpg">
+                            <img src="src/squads/a-rank/tachikawa/kunichika.jpg">
+                        </div>
+                
+                        <h3>Kazama squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\a-rank\kazama\kazama.jpg">
+                            <img src="src/squads/a-rank/kazama/kikuchihara.jpg">
+                            <img src="src\squads\a-rank\kazama\utagawa.jpg">
+                            <img src="src/squads/a-rank/kazama/mikami.jpg">
+                        </div>
+                
+                        <h3>Arashiyama squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\a-rank\arashiyama\arashiyama.jpg">
+                            <img src="src/squads/a-rank/arashiyama/kitora.jpg">
+                            <img src="src\squads\a-rank\arashiyama\tokieda.jpg">
+                            <img src="src/squads/a-rank/arashiyama/satori.jpg">
+                            <img src="src\squads\a-rank\arashiyama\ayatsuji.jpg">
+                        </div>
+                
+                        <h3>Miwa squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\a-rank\miwa\miwa.jpg">
+                            <img src="src/squads/a-rank/miwa/yoneya.jpg">
+                            <img src="src\squads\a-rank\miwa\kodera.jpg">
+                            <img src="src/squads/a-rank/miwa/narasaka.jpg">
+                            <img src="src\squads\a-rank\miwa\tsukimi.jpg">
+                        </div>
+                
+                        <h3>Tamakoma first</h3>
+                        <div class="icon">
+                            <img src="src\squads\a-rank\tamakoma_first\kizaki.jpg">
+                            <img src="src/squads/a-rank/tamakoma_first/karasuma.jpg">
+                            <img src="src\squads\a-rank\tamakoma_first\konami.jpg">
+                        </div>
+                
+                        <h2>Rank B</h2>
+                
+                        <h3>Ninomiya squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\ninomiya\ninomiya.jpg">
+                            <img src="src/squads/b-rank/ninomiya/tsuji.jpg">
+                            <img src="src\squads\b-rank\ninomiya\inukai.jpg">
+                            <img src="src/squads/b-rank/ninomiya/hiyami.jpg">
+                        </div>
+                
+                        <h3>Kageura squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\kageura\kageura.jpg">
+                            <img src="src/squads/b-rank/kageura/kitazoe.jpg">
+                            <img src="src\squads\b-rank\kageura\ema.jpg">
+                            <img src="src/squads/b-rank/kageura/nire.jpg">
+                        </div>
+                
+                        <h3>Tamakoma second</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\tamakoma_second\osamu.jpg">
+                            <img src="src/squads/b-rank/tamakoma_second/yuma.jpg">
+                            <img src="src\squads\b-rank\tamakoma_second\amatori.jpg">
+                            <img src="src/squads/b-rank/tamakoma_second/hyuse.jpg">
+                            <img src="src\squads\b-rank\tamakoma_second\usami.jpg">
+                        </div>
+                
+                        <h3>Ikoma squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\ikoma\ikoma.jpg">
+                            <img src="src/squads/b-rank/ikoma/mizukami.jpg">
+                            <img src="src\squads\b-rank\ikoma\oki.jpg">
+                            <img src="src/squads/b-rank/ikoma/minamisawa.jpg">
+                            <img src="src\squads\b-rank\ikoma\hosoi.jpg">
+                        </div>
+                
+                        <h3>Suzunari first</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\suzunari_first\kuruma.jpg">
+                            <img src="src/squads/b-rank/suzunari_first/murakami.jpg">
+                            <img src="src\squads\b-rank\suzunari_first\betsuyaki.jpg">
+                            <img src="src/squads/b-rank/suzunari_first/kon.jpg">
+                        </div>
+                
+                        <h3>Katori squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\katori\katori.jpg">
+                            <img src="src/squads/b-rank/katori/miura.jpg">
+                            <img src="src\squads\b-rank\katori\wakamura.jpg">
+                            <img src="src/squads/b-rank/katori/somei.jpg">
+                        </div>
+
+                        <h3>Suwa squad</h3>
+                        <div class="icon">
+                                <img src="src\squads\b-rank\suwa\suwa.jpg">
+                                <img src="src/squads/b-rank/suwa/tsutsumi.jpg">
+                                <img src="src\squads\b-rank\suwa\sasamori.jpg">
+                                <img src="src/squads/b-rank/suwa/osano.jpg">
+                            </div>
+
+                        <h3>Arafune squad</h3>
+                        <div class="icon">
+                            <img src="src\squads\b-rank\arafune\arafune.jpg">
+                            <img src="src/squads/b-rank/arafune/hokari.jpg">
+                            <img src="src\squads\b-rank\arafune\hanzaki.jpg">
+                            <img src="src/squads/b-rank/arafune/kagami.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- staff -->
+                <div class="page" id="p3" style="background: black;">
+                    <a href="#menu" class="close">&times;</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Staff</h2>
+                    <div class="staff">
+                        <span data-tooltip="kido">
+                            <img src="src\staff\kido.jpg" title="Masamune Kido" data-tooltip="kido">
+                        </span>
+                        <img src="src\staff\karasawa.jpg" title="Katsumi Karasawa">
+                        <img src="src\staff\kinuta.jpg" title="Motokichi Kinuta">
+                    </div>
+                    <div class="staff">
+                        <img src="src\staff\netsuki.jpg" title="Eizo Netsuki">
+                        <img src="src\staff\shinoda.jpg" title="Masafumi Shinoda">
+                        <img src="src\staff\sawamura.jpg" title="Kyoko Sawamura">
+                    </div>
+                </div>
     
-    
-    
-    
+            </div>
             </div>
             </div>
             </div>
@@ -142,14 +303,10 @@
         <div class="preview__loading">
             <img src="src/preview/logo.png" alt=".">
         </div>
-        <div class="preview__video">
-            <img src="src/preview/bg.jpg" alt=".">
-            <a href="#" class="preview__close">&times;</a>
-        </div>
     </div>
 
     <!-- FOOTER -->
     <footer></footer>
-    <script src="js/poster.js"></script>
+    <!-- <script src="js/poster.js"></script> -->
 </body>
 </html>

@@ -18,7 +18,7 @@
     width: 16.5rem;
     height: 29rem;
     background-color: #0e1538;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,4 +108,9 @@
     margin: 0.2rem;
     width: 4rem;
     background: grey;
+}
+@media (max-width:510px) {
+    .instagram {
+        flex-direction: column;
+    }
 }
