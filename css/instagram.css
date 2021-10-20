@@ -73,6 +73,7 @@
     height: 4rem;
     border-radius: 50%;
     overflow: hidden;
+    background: grey;
     border: 3px double purple;
 }
 .ava>img {
@@ -106,4 +107,5 @@
 .posts>img {
     margin: 0.2rem;
     width: 4rem;
+    background: grey;
 }
