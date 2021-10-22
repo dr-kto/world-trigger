@@ -1,6 +1,6 @@
 /* Preview */
 .preview {
-    animation: preview 2s ease;
+    animation: preview 4s ease;
     background-color: #fff;
     width: 0;
     height: 0;
@@ -12,7 +12,7 @@
 }
 
 .preview__loading,
-.preview__video {
+.preview__poweredby {
     width: 0;
     height: 0;
     visibility: hidden;
@@ -22,8 +22,17 @@
     animation: loader 2s ease;
 }
 .preview__loading>img{
-    width: 30rem;
-    height: 15rem;
+    width: 50vw;
+    height: 15vw;
+    /* object-fit: cover; */
+}
+.preview__poweredby {
+    animation: loader_2 2s ease 2s;
+}
+.preview__poweredby>img {
+    width: 90vw;
+    height: 15vw;
+    /* object-fit: cover; */
 }
 
 @keyframes preview {
@@ -31,8 +40,8 @@
         opacity: 1;
         position: fixed;
         z-index: 1;
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         top: 0;
         bottom: 0;
         left: 0;
@@ -42,8 +51,8 @@
         opacity: 1;
         z-index: 1;
         position: fixed;
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         top: 0;
         bottom: 0;
         left: 0;
@@ -52,8 +61,8 @@
     100% {
         opacity: 0;
         position: fixed;
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         top: 0;
         bottom: 0;
         left: 0;
@@ -64,25 +73,41 @@
     0% {
         opacity: 0;
         visibility: visible;
-        width: 30rem;
-        height: 20rem;
+        width: 100vw;
+        height: 20vw;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+        width: 50vw;
+        height: 20vw;
+    }
+    
+    100% {
+        opacity: 0;
+        visibility: visible;
+        width: 50vw;
+        height: 15vw;
+    }
+}
+@keyframes loader_2 {
+    0% {
+        opacity: 0;
+        visibility: visible;
+        width: 100%;
+        height: 20vw;
     }
     60% {
         opacity: 1;
         visibility: visible;
-        width: 30rem;
-        height: 20rem;
+        width: 90vw;
+        height: 20vw;
     }
-    70% {
-        opacity: 1;
-        visibility: visible;
-        width: 30rem;
-        height: 20rem;
-    }
+    
     100% {
         opacity: 0;
         visibility: visible;
-        width: 30rem;
-        height: 10rem;
+        width: 90vw;
+        height: 15vw;
     }
 }

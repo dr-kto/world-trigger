@@ -130,11 +130,6 @@
     font-size: 3rem;
     text-transform: uppercase;
 }
-.story__close-area {
-}
-.story__area {
-}
-.story__close {
-}
-.story__content {
+video {
+    width: 90vw;
 }
