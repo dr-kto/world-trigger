@@ -36,6 +36,9 @@ h3{
 
     border-bottom: solid 3px #044;
     border-radius: 6px;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: cover;
 }
 .staff img{
     width: 15vw;
